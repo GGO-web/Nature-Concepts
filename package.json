@@ -53,7 +53,7 @@
 		"gulp-zip": "latest",
 		"html-webpack-plugin": "latest",
 		"inputmask": "latest",
-		"lightgallery": "latest",
+		"lightgallery": "^2.4.0",
 		"load-plugins": "latest",
 		"mini-css-extract-plugin": "^1.6.2",
 		"node-w3c-validator": "latest",

@@ -296,6 +296,12 @@ button {
   background-color: transparent;
 }
 
+.main {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: var(--gap);
+}
+
 .text {
   margin: 0;
 }
@@ -539,6 +545,10 @@ button {
 .trands__image {
   display: block;
   width: 100%;
+}
+
+.trands__image-wrapper {
+  max-width: 100%;
 }
 
 .footer__inner {
@@ -1607,6 +1617,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     padding-bottom: 3.75rem;
   }
 
+  .main {
+    --gap: 3.75rem;
+  }
+
   .header__inner {
     padding-top: 1.875rem;
   }
@@ -1683,8 +1697,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 
 @media (max-width: 101.875em) {
   .benefits__inner {
-    -ms-grid-columns: 40% 60%;
-    grid-template-columns: 40% 60%;
+    -ms-grid-columns: 40% auto;
+    grid-template-columns: 40% auto;
   }
 
   .benefits__image-wrapper {
@@ -1693,8 +1707,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 
   .trands__inner {
-    -ms-grid-columns: 60% 40%;
-    grid-template-columns: 60% 40%;
+    -ms-grid-columns: 60% auto;
+    grid-template-columns: 60% auto;
   }
 }
 
@@ -1916,6 +1930,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     padding-bottom: 1.875rem;
   }
 
+  .main {
+    --gap: 1.875rem;
+  }
+
   .header__inner {
     padding-top: 0.625rem;
   }
@@ -2009,6 +2027,20 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 @supports not (padding-bottom: clamp( 1.875rem , 1.305rem  +  2.4vw , 3.75rem )) {
     .section-offsets {
       padding-bottom: calc(
+          1.875rem + 1.875 * (100vw - 23.75rem) / 78.125
+        );
+    }
+}
+
+@supports (--gap: clamp( 1.875rem , 1.305rem  +  2.4vw , 3.75rem )) {
+    .main {
+      --gap: clamp( 1.875rem , 1.305rem  +  2.4vw , 3.75rem );
+    }
+}
+
+@supports not (--gap: clamp( 1.875rem , 1.305rem  +  2.4vw , 3.75rem )) {
+    .main {
+      --gap: calc(
           1.875rem + 1.875 * (100vw - 23.75rem) / 78.125
         );
     }

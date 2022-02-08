@@ -2758,6 +2758,7 @@ PERFORMANCE OF THIS SOFTWARE.
                     gallery,
                     galleryClass: lightgallery_es5(gallery, {
                         plugins: [ lg_zoom_umd, lg_thumbnail_umd ],
+                        selector: "a",
                         licenseKey: "7EC452A9-0CFD441C-BD984C7C-17C8456E",
                         speed: 500
                     })

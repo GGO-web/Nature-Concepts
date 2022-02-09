@@ -374,7 +374,7 @@ button {
 }
 
 .no-webp .hero {
-  background-image: url("img/hero-bg.jpg"); }
+  background-image: url("../img/hero-bg.jpg"); }
 
 .hero {
   display: -webkit-box;
@@ -2435,7 +2435,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
 }
 
-.webp .hero { background-image: url(img/hero-bg.webp); }
+.webp .hero { background-image: url(../img/hero-bg.webp); }
 
 .webp .lg-outer .lg-item:not(.lg-start-end-progress) { background: url(data:image/webp;base64,UklGRs4AAABXRUJQVlA4IMIAAACwBQCdASogACAAPpFCnEolo6KhqAgAsBIJaQAD5dDxrXM99232GfVDjLF0EQDwsC0CXKtWlgAA/vV76pcYbjjsL88+3qb/4UfhRX+dwASYANdOF+J5Nu61NxB7TUbHeCQeee2d4nX3M/8oPzSbTnBOl/xCNiQkRhkYBtGvv3/fXfn2CbNj/EPmnHMb/H7zFQx28TJK5yXYt1B6zlKYbIeBfYPo1h1tsfJDbPjNrzTs7O1elyh7eF4fdYd8hFly7AAAAA==) no-repeat scroll center center transparent; }
 

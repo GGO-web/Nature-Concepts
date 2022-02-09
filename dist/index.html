@@ -1,241 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="description" content="Main page description">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap&_v=20220209133419" rel="stylesheet">
-	<title>Main page</title>
-	<link rel="stylesheet" href="css/style.min.css?_v=20220209133419">
-	<script src="js/app.min.js?_v=20220209133419" defer></script>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Main page description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link onload="this.rel='stylesheet'" as="font" rel="preload" href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap&_v=20220209145251">
+    <title>Main page</title>
+    <link onload="this.rel='stylesheet'" as="style" rel="preload" href="css/style.min.css?_v=20220209145251">
+    <script src="js/app.min.js?_v=20220209145251" defer></script>
+  </head>
 
-<body>
-	<div class="site-wrapper">
-		<header class="header">
-			<div class="header__inner container">
-				<a href="index.html" class="header__logo logo" title="Logo">
-					Nature Concepts
-				</a>
+  <body>
+    <div class="site-wrapper">
+      <header class="header">
+        <div class="header__inner container">
+          <a href="index.html" class="header__logo logo" title="Logo">
+            Nature Concepts
+          </a>
 
-				<div class="menu" data-fullscreen>
-					<button class="menu__icon icon-menu btn-reset" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
-						<span></span>
-					</button>
+          <div class="menu" data-fullscreen>
+            <button class="menu__icon icon-menu btn-reset" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+              <span></span>
+            </button>
 
-					<nav id="menu" class="menu__body">
-						<ul class="menu__list list-reset">
-							<li class="menu__item">
-								<a href="#!" class="menu__link">Home</a>
-							</li>
-							<li class="menu__item">
-								<a href="#!" class="menu__link">Blog</a>
-							</li>
-							<li class="menu__item">
-								<a href="#!" class="menu__link">Shop</a>
-							</li>
-							<li class="menu__item">
-								<a href="#!" class="menu__link">Contact Us</a>
-							</li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</header>
+            <nav id="menu" class="menu__body">
+              <ul class="menu__list list-reset">
+                <li class="menu__item">
+                  <a href="#!" class="menu__link">Home</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#!" class="menu__link">Blog</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#!" class="menu__link">Shop</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#!" class="menu__link">Contact Us</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
 
-		<main class="main">
-			<section class="hero">
-				<div class="hero__inner container">
-					<h1 class="hero__title title">
-						Create a new concepts
-					</h1>
-					<p class="hero__text text">
-						Our aim is to make people who <br>
-						work in open-plan offices to be <br>
-						happier and more effective acordingly
-					</p>
-					<div class="hero__buttons">
-						<a href="#!" class="hero__button button-style">
-							View collection
-						</a>
-						<a href="#!" class="hero__button button-style button-style_stroke">
-							Shop now
-						</a>
-					</div>
-				</div>
-			</section>
+      <main class="main">
+        <section class="hero">
+          <div class="hero__inner container">
+            <h1 class="hero__title title">
+              Create a new concepts
+            </h1>
+            <p class="hero__text text">
+              Our aim is to make people who <br>
+              work in open-plan offices to be <br>
+              happier and more effective acordingly
+            </p>
+            <div class="hero__buttons">
+              <a href="#!" class="hero__button button-style">
+                View collection
+              </a>
+              <a href="#!" class="hero__button button-style button-style_stroke">
+                Shop now
+              </a>
+            </div>
+          </div>
+        </section>
 
-			<section class="simple">
-				<div class="simple__inner container">
-					<div class="simple__image-wrapper">
-						<picture><source srcset="img/white-chair.webp"type="image/webp"><img class="simple__image" src="img/white-chair.jpg" alt="White Chair"></picture>
-					</div>
-					<div class="simple__content">
-						<h2 class="simple__title title">
-							Simple but very cozy
-						</h2>
-						<p class="simple__text text">
-							The interior is something between modern and rustic with a distinct vintage feel. <br>
-							The color scheme is rather calm: beige, grey, white, baby blue, but when it comes to bedrooms, the colors become more vivid: white and red or white and blue for a contrast.
-						</p>
-					</div>
-				</div>
-			</section>
+        <section class="simple">
+          <div class="simple__inner container">
+            <div class="simple__image-wrapper">
+              <picture>
+                <source srcset="img/white-chair.webp" type="image/webp"><img class="simple__image" src="img/white-chair.jpg" alt="White Chair">
+              </picture>
+            </div>
+            <div class="simple__content">
+              <h2 class="simple__title title">
+                Simple but very cozy
+              </h2>
+              <p class="simple__text text">
+                The interior is something between modern and rustic with a distinct vintage feel. <br>
+                The color scheme is rather calm: beige, grey, white, baby blue, but when it comes to bedrooms, the colors become more vivid: white and red or white and blue for a contrast.
+              </p>
+            </div>
+          </div>
+        </section>
 
-			<section class="sweet">
-				<div class="sweet__inner container">
-					<div class="sweet__content">
-						<h2 class="sweet__title title">
-							Sweet Home
-						</h2>
-						<p class="sweet__text text">
-							<span class="sweet__text-paragraph">
-								We are more used to stained furniture nowadays but if you want to add color to the space, why not paint the furniture?
-							</span>
-							<span class="sweet__text-paragraph">
-								Today I’d like to share some ideas to infuse your space with color – with painted chairs, take a look how to do that.
-							</span>
-						</p>
-					</div>
-					<div class="sweet__images">
-						<picture><source srcset="img/sweet/sweet-chair-1.webp"type="image/webp"><img class="sweet__image" src="img/sweet/sweet-chair-1.jpg" alt="Sweet Chair #1"></picture>
-						<picture><source srcset="img/sweet/sweet-chair-2.webp"type="image/webp"><img class="sweet__image" src="img/sweet/sweet-chair-2.jpg" alt="Sweet Chair #2"></picture>
-						<picture><source srcset="img/sweet/sweet-chair-3.webp"type="image/webp"><img class="sweet__image" src="img/sweet/sweet-chair-3.jpg" alt="Sweet Chair #3"></picture>
-					</div>
-				</div>
-			</section>
+        <section class="sweet">
+          <div class="sweet__inner container">
+            <div class="sweet__content">
+              <h2 class="sweet__title title">
+                Sweet Home
+              </h2>
+              <p class="sweet__text text">
+                <span class="sweet__text-paragraph">
+                  We are more used to stained furniture nowadays but if you want to add color to the space, why not paint the furniture?
+                </span>
+                <span class="sweet__text-paragraph">
+                  Today I’d like to share some ideas to infuse your space with color – with painted chairs, take a look how to do that.
+                </span>
+              </p>
+            </div>
+            <div class="sweet__images">
+              <picture>
+                <source srcset="img/sweet/sweet-chair-1.webp" type="image/webp"><img class="sweet__image" src="img/sweet/sweet-chair-1.jpg" alt="Sweet Chair #1">
+              </picture>
+              <picture>
+                <source srcset="img/sweet/sweet-chair-2.webp" type="image/webp"><img class="sweet__image" src="img/sweet/sweet-chair-2.jpg" alt="Sweet Chair #2">
+              </picture>
+              <picture>
+                <source srcset="img/sweet/sweet-chair-3.webp" type="image/webp"><img class="sweet__image" src="img/sweet/sweet-chair-3.jpg" alt="Sweet Chair #3">
+              </picture>
+            </div>
+          </div>
+        </section>
 
-			<section class="collection">
-				<div class="collection__inner container">
-					<div class="collection__content">
-						<h2 class="collection__title title">
-							Nature Collection
-						</h2>
-						<p class="collection__text text">
-							Nature is the most popular furniture brand that is known for its timeless designs that can be modern and retro, classic and edgy at the same time.
-						</p>
-					</div>
-					<div class="collection__gallery" data-gallery>
-						<a class="collection__gallery-item" href="img/collection/collection-1.jpg">
-							<picture><source srcset="img/collection/collection-1.webp"type="image/webp"><img class="collection__gallery-image" src="img/collection/collection-1.jpg" alt=""></picture>
-						</a>
-						<a class="collection__gallery-item" href="img/collection/collection-2.jpg">
-							<picture><source srcset="img/collection/collection-2.webp"type="image/webp"><img class="collection__gallery-image" src="img/collection/collection-2.jpg" alt=""></picture>
-						</a>
-						<a class="collection__gallery-item" href="img/collection/collection-3.jpg">
-							<picture><source srcset="img/collection/collection-3.webp"type="image/webp"><img class="collection__gallery-image" src="img/collection/collection-3.jpg" alt=""></picture>
-						</a>
-						<a class="collection__gallery-item" href="img/collection/collection-4.jpg">
-							<picture><source srcset="img/collection/collection-4.webp"type="image/webp"><img class="collection__gallery-image" src="img/collection/collection-4.jpg" alt=""></picture>
-						</a>
-						<a class="collection__gallery-item" href="img/collection/collection-5.jpg">
-							<picture><source srcset="img/collection/collection-5.webp"type="image/webp"><img class="collection__gallery-image" src="img/collection/collection-5.jpg" alt=""></picture>
-						</a>
-						<a class="collection__gallery-item" href="img/collection/collection-6.jpg">
-							<picture><source srcset="img/collection/collection-6.webp"type="image/webp"><img class="collection__gallery-image" src="img/collection/collection-6.jpg" alt=""></picture>
-						</a>
-						<a class="collection__gallery-item" href="img/collection/collection-7.jpg">
-							<picture><source srcset="img/collection/collection-7.webp"type="image/webp"><img class="collection__gallery-image" src="img/collection/collection-7.jpg" alt=""></picture>
-						</a>
-						<a class="collection__gallery-item" href="img/collection/collection-8.jpg">
-							<picture><source srcset="img/collection/collection-8.webp"type="image/webp"><img class="collection__gallery-image" src="img/collection/collection-8.jpg" alt=""></picture>
-						</a>
-					</div>
-				</div>
-			</section>
+        <section class="collection">
+          <div class="collection__inner container">
+            <div class="collection__content">
+              <h2 class="collection__title title">
+                Nature Collection
+              </h2>
+              <p class="collection__text text">
+                Nature is the most popular furniture brand that is known for its timeless designs that can be modern and retro, classic and edgy at the same time.
+              </p>
+            </div>
+            <div class="collection__gallery" data-gallery>
+              <a class="collection__gallery-item" aria-label="Collection gallery image #1" href="img/collection/collection-1.jpg">
+                <picture>
+                  <source srcset="img/collection/collection-1.webp" type="image/webp"><img class="collection__gallery-image" src="img/collection/collection-1.jpg" alt="">
+                </picture>
+              </a>
+              <a class="collection__gallery-item" aria-label="Collection gallery image #2" href="img/collection/collection-2.jpg">
+                <picture>
+                  <source srcset="img/collection/collection-2.webp" type="image/webp"><img class="collection__gallery-image" src="img/collection/collection-2.jpg" alt="">
+                </picture>
+              </a>
+              <a class="collection__gallery-item" aria-label="Collection gallery image #3" href="img/collection/collection-3.jpg">
+                <picture>
+                  <source srcset="img/collection/collection-3.webp" type="image/webp"><img class="collection__gallery-image" src="img/collection/collection-3.jpg" alt="">
+                </picture>
+              </a>
+              <a class="collection__gallery-item" aria-label="Collection gallery image #4" href="img/collection/collection-4.jpg">
+                <picture>
+                  <source srcset="img/collection/collection-4.webp" type="image/webp"><img class="collection__gallery-image" src="img/collection/collection-4.jpg" alt="">
+                </picture>
+              </a>
+              <a class="collection__gallery-item" aria-label="Collection gallery image #5" href="img/collection/collection-5.jpg">
+                <picture>
+                  <source srcset="img/collection/collection-5.webp" type="image/webp"><img class="collection__gallery-image" src="img/collection/collection-5.jpg" alt="">
+                </picture>
+              </a>
+              <a class="collection__gallery-item" aria-label="Collection gallery image #6" href="img/collection/collection-6.jpg">
+                <picture>
+                  <source srcset="img/collection/collection-6.webp" type="image/webp"><img class="collection__gallery-image" src="img/collection/collection-6.jpg" alt="">
+                </picture>
+              </a>
+              <a class="collection__gallery-item" aria-label="Collection gallery image #7" href="img/collection/collection-7.jpg">
+                <picture>
+                  <source srcset="img/collection/collection-7.webp" type="image/webp"><img class="collection__gallery-image" src="img/collection/collection-7.jpg" alt="">
+                </picture>
+              </a>
+              <a class="collection__gallery-item" aria-label="Collection gallery image #8" href="img/collection/collection-8.jpg">
+                <picture>
+                  <source srcset="img/collection/collection-8.webp" type="image/webp"><img class="collection__gallery-image" src="img/collection/collection-8.jpg" alt="">
+                </picture>
+              </a>
+            </div>
+          </div>
+        </section>
 
-			<section class="modern">
-				<div class="modern__inner container">
-					<div class="modern__content">
-						<h2 class="modern__title title">
-							Modern Interier Places
-						</h2>
-						<p class="modern__text text">
-							Modern design is an interior design style characterized by a monochromatic color palette, clean lines, minimalism, natural materials, and natural light.
-							It refers specifically to a historical aesthetic movement that took place during the early to mid-twentieth century.
-						</p>
-					</div>
-					<div class="modern__image-wrapper">
-						<picture><source srcset="img/modern/modern-1.webp"type="image/webp"><img class="modern__image" src="img/modern/modern-1.jpg" alt="Yellow Modern Chair"></picture>
-					</div>
-				</div>
-			</section>
+        <section class="modern">
+          <div class="modern__inner container">
+            <div class="modern__content">
+              <h2 class="modern__title title">
+                Modern Interier Places
+              </h2>
+              <p class="modern__text text">
+                Modern design is an interior design style characterized by a monochromatic color palette, clean lines, minimalism, natural materials, and natural light.
+                It refers specifically to a historical aesthetic movement that took place during the early to mid-twentieth century.
+              </p>
+            </div>
+            <div class="modern__image-wrapper">
+              <picture>
+                <source srcset="img/modern/modern-1.webp" type="image/webp"><img class="modern__image" src="img/modern/modern-1.jpg" alt="Yellow Modern Chair">
+              </picture>
+            </div>
+          </div>
+        </section>
 
-			<section class="benefits">
-				<div class="benefits__inner container">
-					<div class="benefits__image-wrapper">
-						<picture><source srcset="img/benefits/benefits-img-1.webp"type="image/webp"><img class="benefits__image" src="img/benefits/benefits-img-1.jpg" alt="Comfortable white soft chair"></picture>
-					</div>
-					<div class="benefits__gallery gallery-small" data-gallery>
-						<a class="benefits__gallery-item gallery-small__item" href="img/benefits/benefits-img-2.jpg">
-							<picture><source srcset="img/benefits/benefits-img-2.webp"type="image/webp"><img class="benefits__gallery-image gallery-small__image" src="img/benefits/benefits-img-2.jpg" alt=""></picture>
-						</a>
-						<div class="benefits__gallery-content gallery-small__content">
-							<h2 class="benefits__title title">
-								Handy design
-							</h2>
-							<p class="benefits__text text">
-								The seat should have enough width and depth to support any users comfortably.
-								Every person is different, we all have different heights and body shapes.
-							</p>
-						</div>
-						<a class="benefits__gallery-item gallery-small__item" href="img/benefits/benefits-img-3.jpg">
-							<picture><source srcset="img/benefits/benefits-img-3.webp"type="image/webp"><img class="benefits__gallery-image gallery-small__image" src="img/benefits/benefits-img-3.jpg" alt=""></picture>
-						</a>
-						<a class="benefits__gallery-item gallery-small__item" href="img/benefits/benefits-img-4.jpg">
-							<picture><source srcset="img/benefits/benefits-img-4.webp"type="image/webp"><img class="benefits__gallery-image gallery-small__image" src="img/benefits/benefits-img-4.jpg" alt=""></picture>
-						</a>
-					</div>
-				</div>
-			</section>
+        <section class="benefits">
+          <div class="benefits__inner container">
+            <div class="benefits__image-wrapper">
+              <picture>
+                <source srcset="img/benefits/benefits-img-1.webp" type="image/webp"><img class="benefits__image" src="img/benefits/benefits-img-1.jpg" alt="Comfortable white soft chair">
+              </picture>
+            </div>
+            <div class="benefits__gallery gallery-small" data-gallery>
+              <a class="benefits__gallery-item gallery-small__item" aria-label="Benefits gallery image #1" href="img/benefits/benefits-img-2.jpg">
+                <picture>
+                  <source srcset="img/benefits/benefits-img-2.webp" type="image/webp"><img class="benefits__gallery-image gallery-small__image" src="img/benefits/benefits-img-2.jpg" alt="">
+                </picture>
+              </a>
+              <div class="benefits__gallery-content gallery-small__content">
+                <h2 class="benefits__title title">
+                  Handy design
+                </h2>
+                <p class="benefits__text text">
+                  The seat should have enough width and depth to support any users comfortably.
+                  Every person is different, we all have different heights and body shapes.
+                </p>
+              </div>
+              <a class="benefits__gallery-item gallery-small__item" aria-label="Benefits gallery image #2" href="img/benefits/benefits-img-3.jpg">
+                <picture>
+                  <source srcset="img/benefits/benefits-img-3.webp" type="image/webp"><img class="benefits__gallery-image gallery-small__image" src="img/benefits/benefits-img-3.jpg" alt="">
+                </picture>
+              </a>
+              <a class="benefits__gallery-item gallery-small__item" aria-label="Benefits gallery image #3" href="img/benefits/benefits-img-4.jpg">
+                <picture>
+                  <source srcset="img/benefits/benefits-img-4.webp" type="image/webp"><img class="benefits__gallery-image gallery-small__image" src="img/benefits/benefits-img-4.jpg" alt="">
+                </picture>
+              </a>
+            </div>
+          </div>
+        </section>
 
-			<section class="trands">
-				<div class="trands__inner container">
-					<div class="trands__gallery gallery-small" data-gallery>
-						<div class="trands__gallery-content gallery-small__content">
-							<h2 class="trands__title title">
-								Trands design
-							</h2>
-							<p class="trands__text text">
-								There are many design trends that are on now, and geometry is definitely a trend that is here to stay.
-								Paired with neon or just bold colors, it’s sure to give your space an ultra-modern look. <br>
-								Want an example? Here it is!
-								Reminiscent of the Eames Eiffel-style base, Lazariev Design’s Star Chair is a prefabricated...
-							</p>
-						</div>
-						<a class="trands__gallery-item gallery-small__item" href="img/trands/trands-img-2.jpg">
-							<picture><source srcset="img/trands/trands-img-2.webp"type="image/webp"><img class="trands__gallery-image gallery-small__image" src="img/trands/trands-img-2.jpg" alt=""></picture>
-						</a>
-						<a class="trands__gallery-item gallery-small__item" href="img/trands/trands-img-3.jpg">
-							<picture><source srcset="img/trands/trands-img-3.webp"type="image/webp"><img class="trands__gallery-image gallery-small__image" src="img/trands/trands-img-3.jpg" alt=""></picture>
-						</a>
-						<a class="trands__gallery-item gallery-small__item" href="img/trands/trands-img-4.jpg">
-							<picture><source srcset="img/trands/trands-img-4.webp"type="image/webp"><img class="trands__gallery-image gallery-small__image" src="img/trands/trands-img-4.jpg" alt=""></picture>
-						</a>
-					</div>
-					<div class="trands__image-wrapper">
-						<picture><source srcset="img/trands/trands-img-1.webp"type="image/webp"><img class="trands__image" src="img/trands/trands-img-1.jpg" alt=""></picture>
-					</div>
-				</div>
-			</section>
+        <section class="trands">
+          <div class="trands__inner container">
+            <div class="trands__gallery gallery-small" data-gallery>
+              <div class="trands__gallery-content gallery-small__content">
+                <h2 class="trands__title title">
+                  Trands design
+                </h2>
+                <p class="trands__text text">
+                  There are many design trends that are on now, and geometry is definitely a trend that is here to stay.
+                  Paired with neon or just bold colors, it’s sure to give your space an ultra-modern look. <br>
+                  Want an example? Here it is!
+                  Reminiscent of the Eames Eiffel-style base, Lazariev Design’s Star Chair is a prefabricated...
+                </p>
+              </div>
+              <a class="trands__gallery-item gallery-small__item" aria-label="Trands gallery image #1" href="img/trands/trands-img-2.jpg">
+                <picture>
+                  <source srcset="img/trands/trands-img-2.webp" type="image/webp"><img class="trands__gallery-image gallery-small__image" src="img/trands/trands-img-2.jpg" alt="">
+                </picture>
+              </a>
+              <a class="trands__gallery-item gallery-small__item" aria-label="Trands gallery image #2" href="img/trands/trands-img-3.jpg">
+                <picture>
+                  <source srcset="img/trands/trands-img-3.webp" type="image/webp"><img class="trands__gallery-image gallery-small__image" src="img/trands/trands-img-3.jpg" alt="">
+                </picture>
+              </a>
+              <a class="trands__gallery-item gallery-small__item" aria-label="Trands gallery image #3" href="img/trands/trands-img-4.jpg">
+                <picture>
+                  <source srcset="img/trands/trands-img-4.webp" type="image/webp"><img class="trands__gallery-image gallery-small__image" src="img/trands/trands-img-4.jpg" alt="">
+                </picture>
+              </a>
+            </div>
+            <div class="trands__image-wrapper">
+              <picture>
+                <source srcset="img/trands/trands-img-1.webp" type="image/webp"><img class="trands__image" src="img/trands/trands-img-1.jpg" alt="">
+              </picture>
+            </div>
+          </div>
+        </section>
 
-		</main>
-		<footer class="footer container-fluid">
-			<div class="footer__inner container">
-				<a href="index.html" class="footer__logo logo" title="Logo">
-					Nature Concepts
-				</a>
-				<span class="footer__copy">
-					&copy; all rights reserved.
-				</span>
-			</div>
-		</footer>
+      </main>
+      <footer class="footer container-fluid">
+        <div class="footer__inner container">
+          <a href="index.html" class="footer__logo logo" title="Logo">
+            Nature Concepts
+          </a>
+          <span class="footer__copy">
+            &copy; all rights reserved.
+          </span>
+        </div>
+      </footer>
 
-	</div>
-</body>
+    </div>
+  </body>
 
 </html>

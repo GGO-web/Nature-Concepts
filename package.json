@@ -89,6 +89,7 @@
 		"webpack-stream": "latest"
 	},
 	"dependencies": {
+		"aos": "^2.3.4",
 		"patch-package": "^6.4.7",
 		"simplebar": "latest"
 	},
